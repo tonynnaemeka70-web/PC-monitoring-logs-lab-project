@@ -36,7 +36,7 @@ Viewed logs in Event Viewer:
 
 Press window buton and enter event viewer and navigate to Applications and Services Logs and custom views
 
-Also checked Windows Logs Securi
+Also checked Windows Logs Security
 
 
 
@@ -64,4 +64,4 @@ Repository Notes
 
 This report is part of my cybersecurity learning journey. All tools used are free and publicly available. Screenshots and config files are included in the /assets folder of this repo.
 
-Author: Tony (SOOD ELIASER)
+
