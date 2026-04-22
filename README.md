@@ -12,18 +12,18 @@ Log analysis and interpretation
 Incident detection and response simulation
 Security monitoring workflows used in SOC environments
 
-2.  Tools Used
-- **Sysmon64 v15.15** – System activity monitor from Sysinternals
-- **Windows Event Viewer** – Built-in Windows log viewer
-- **Configuration File:** `sysmonconfig-export.xml` from [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config)
+Objectives
+-Collect and review system activity logs from a monitored environment
+-Identify abnormal or suspicious behavior patterns
+-Simulate real-world security incident detection scenarios
+-Document findings in a structured incident report format
 
-3.  Objectives
-- Install and configure Sysmon
-- Generate and analyze logs for:
-  - Process creation
-  - PowerShell activity
-  - Failed login attempts
-- Write a short incident report with security recommendations
+Tools & Technologies
+Linux System Logs (auth.log / system logs)
+Windows Event Viewer 
+Log analysis techniques
+Basic incident response methodology
+Configuration File:** `sysmonconfig-export.xml` from [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config)
 
 4. Screenshots
    
