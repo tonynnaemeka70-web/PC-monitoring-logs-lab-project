@@ -1,5 +1,4 @@
-
-1. Sysmon Security Monitoring Lab
+PC Monitoring & Security Log Analysis Lab (SOC Simulation)
 
 This project demonstrates basic security monitoring on a Windows PC using [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) and Windows Event Viewer. It was completed as part of my cybersecurity learning journey.
 
