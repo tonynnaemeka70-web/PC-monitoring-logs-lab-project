@@ -23,15 +23,63 @@ Linux System Logs (auth.log / system logs)
 Windows Event Viewer 
 Log analysis techniques
 Basic incident response methodology
-Configuration File:** `sysmonconfig-export.xml` from [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config)
+Configuration File: `sysmonconfig-export.xml` from [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config)
 
-4. Screenshots
-   
-Screenshots are stored in the `/assets` folder:
+Project Workflow
+ -Log Collection
+-System logs were gathered from monitored endpoints, focusing on:
+-Authentication attempts
+-System access events
+-User activity logs
+-Error and warning events
 
-- `screenshot_sysmon_operational.png`
-- `screenshot_security_failed_login.png`
-- `screenshot_powershell_activity.png`
+Log Analysis Process
+-The logs were systematically reviewed to detect:
+-Repeated failed login attempts
+-Unusual access patterns
+-Potential brute-force behavior
+-Suspicious system activity spikes
+Threat Detection Scenarios
+-Simulated security incidents included:
+-Brute Force Attempt Simulation
+-Multiple failed login attempts from a single source
+-Identification of potential unauthorized access attempts
+
+Suspicious Activity Detection
+-Abnormal login times
+-Repeated system access failures
+-Unexpected user behavior patterns
+
+Findings Summary
+-Key observations from the analysis:
+-Failed login attempts may indicate brute-force activity
+-Repeated authentication failures require escalation
+-Log patterns are critical for early threat detection
+
+Incident Response Actions (Simulated)
+-For detected anomalies, the following SOC-style response actions were documented:
+-Flagging suspicious IP/activity
+-Reviewing affected system logs in detail
+-Identifying potential attack patterns
+-Recommending mitigation steps (account lockout, monitoring enhancement)
+
+Key Skills Demonstrated
+-Security log interpretation
+-SOC-style monitoring and alert detection
+-Basic threat identification techniques
+-Incident reporting and documentation
+-Analytical thinking in cybersecurity operations
+
+Key Takeaway
+This project demonstrates foundational SOC analyst capabilities in identifying and analyzing security events through log data. It 
+
+
+simulates real-world monitoring tasks used in Security Operations Centers.
+-Future Improvements
+-Integrate ELK Stack for centralized logging
+-Add automated alert detection scripts
+-Simulate advanced persistent threats (APT scenarios)
+-Expand into full SIEM-based monitoring lab
 
 5 Report
 
