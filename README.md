@@ -119,6 +119,7 @@ Key Skills Demonstrated
 
 
 Key Takeaway
+
 This project demonstrates foundational SOC analyst capabilities in identifying and analyzing security events through log data. It 
 
 
