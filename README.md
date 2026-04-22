@@ -13,6 +13,7 @@ Incident detection and response simulation
 Security monitoring workflows used in SOC environments
 
 Objectives
+
 1.Collect and review system activity logs from a monitored environment
 
 2.Identify abnormal or suspicious behavior patterns
@@ -22,18 +23,29 @@ Objectives
 4.Document findings in a structured incident report format
 
 Tools & Technologies
+
 1.Linux System Logs (auth.log / system logs)
+
 2.Windows Event Viewer 
+
 3.Log analysis techniques
+
 4.Basic incident response methodology
+
 5.Configuration File: `sysmonconfig-export.xml` from [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config)
 
 Project Workflow
+
  -Log Collection
+ 
 -System logs were gathered from monitored endpoints, focusing on:
+
 -Authentication attempts
+
 -System access events
+
 -User activity logs
+
 -Error and warning events
 
 Log Analysis Process
