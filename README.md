@@ -13,9 +13,12 @@ Incident detection and response simulation
 Security monitoring workflows used in SOC environments
 
 Objectives
-Collect and review system activity logs from a monitored environment
+1.Collect and review system activity logs from a monitored environment
+
 2.Identify abnormal or suspicious behavior patterns
+
 3.Simulate real-world security incident detection scenarios
+
 4.Document findings in a structured incident report format
 
 Tools & Technologies
